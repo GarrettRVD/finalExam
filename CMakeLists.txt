@@ -4,5 +4,5 @@ project(final)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES main.cpp HousePrice.cpp HousePrice.h
-        HouseFunc.cpp HouseFunc.h)
+        HouseFunc.cpp HouseFunc.h csv.h)
 add_executable(final ${SOURCE_FILES})

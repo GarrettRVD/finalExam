@@ -8,9 +8,10 @@
 
 #include "HousePrice.h"
 #include <string>
+#include "stdafx.h"
 
 // Prototypes
-void readCSV(const string fileIn,vector<HousePrice> &hp);
+void readCSV(const string fileIn, vector<HousePrice> &hp);
 void houseMarketValues(vector<HousePrice> &hp);
 void houseMarketPerState(vector<HousePrice> &hp);
 

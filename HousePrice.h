@@ -7,12 +7,14 @@
 #define HW8_HOUSEPRICE_H
 
 #include <iostream>
+#include "stdafx.h"
 #include <string>
+
 using namespace std;
 
 /*!
- * Class HousePrice
- */
+* Class HousePrice
+*/
 class HousePrice
 {
 private:
@@ -34,6 +36,8 @@ public:
     const string &getState() const;
 
     friend ostream & operator << (ostream &os, const HousePrice &price);
+
+    friend bool operator < (const HousePrice &lhs, const HousePrice &rhs);
 };
 //friend ostream & operator << (ostream &os, const HousePrice &price);
 
